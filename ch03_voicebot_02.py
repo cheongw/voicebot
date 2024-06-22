@@ -2,7 +2,7 @@
 """
 Created on Sun Jun 16 20:36:56 2024
 
-@author: The authors of "진짜 챗GPT API활용법"
+@author: The authors of "진짜 챗GPT API 활용법"
 
 Woo-Jae Cheong made minor changes to the original code. The changes are:
     (1) system's: role
@@ -121,7 +121,7 @@ def main():
         st.markdown("---")
 
         # 리셋 버튼 생성
-        if st.button(label="초기화"):
+        if st.button(label="Reset"):
             # 리셋 코드 
             st.session_state["chat"] = []
             st.session_state["messages"] = [{"role": "system", "content": "You are a knowledgeable professor speaking fluent English. Respond to all input and answer in English"}]
